@@ -1,0 +1,9 @@
+pembayaran.sql
+pembayaran3.sql
+tagihan.sql
+.idea
+# application/config/config.php
+# application/config/database.php
+nbproject/*
+/.idea
+application/logs/error/*

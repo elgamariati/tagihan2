@@ -1,0 +1,314 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 8, 2017, 9:43:15 AM
+    Author     : dheny_0672y0p
+*/
+
+.ico-space {
+   margin-right: 5px !important;
+}
+
+.simaba-logo {
+    margin-left : 45px;
+    margin-top: 19px;
+}
+
+.login-form {
+   float: left ;
+   padding: 100px 3px 35px 70px ;
+   background-color: rgba(229,233,236,0.7) ;
+   border-radius: 0px ;
+   height:100%;
+}
+.login-container {
+   padding: 0px ;
+}
+/*body {
+   background-image: url(../../assets/img/cover.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}*/
+/*Ponsel Galaxy S5 Portait*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+   .row {
+       margin: 0px !important ;                
+   } 
+   .login-form {
+       top : 25% ;
+       float: none ;
+       padding: 5px 5px 5px 5px ;
+       position: absolute ;
+       width: 92% ;
+   }
+   .simaba-logo {
+       margin-left : 0px;
+       margin-top: 19px;
+   }
+   .page-content {
+       padding: 8px;
+   }
+   .header .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+       background-color: #22262e !important ;
+   }
+           table{
+                width: 100% !important;
+                overflow: scroll;
+                overflow-x: scroll;
+                display: block;
+                white-space: nowrap;
+        }
+        .div.dataTables_wrapper div.dataTables_paginate {
+            margin-top : 30px !important;
+        }
+}
+/*Ponsel Galaxy S5 Portait*/
+/*Ponsel Galaxy S5 Landscape*/
+@media screen and (device-width: 640px) and (device-height: 360px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+   .row {
+       margin: 0px !important ;                
+   } 
+   .login-form {
+       top : 13% ;
+       right: 6% ;
+       float: none ;
+       padding: 5px 5px 5px 5px ;
+       position: absolute ;
+       width: 50% ;
+   }
+      .page-content {
+       padding: 8px;
+   }
+      .simaba-logo {
+    margin-left : 0px;
+    margin-top: 19px;
+}
+   .header .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+       background-color: #22262e !important ;
+   }
+              table{
+                width: 100% !important;
+                overflow: scroll;
+                overflow-x: scroll;
+                display: block;
+                white-space: nowrap;
+        }
+}
+/*Ponsel Galaxy S5 Landscape*/
+/*Ponsel Nexus 5X Portait*/
+@media screen and (max-width: 412px) and (max-height: 732px) and (orientation: portrait) {
+   .row {
+       margin: 0px !important ;                
+   } 
+   .login-form {
+       top : 25% ;
+       float: none ;
+       padding: 5px 5px 5px 5px ;
+       position: absolute ;
+       width: 92% ;
+   }
+   .simaba-logo {
+    margin-left : 0px;
+    margin-top: 19px;
+}
+   .page-content {
+       padding: 8px;
+   }
+      .header .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+       background-color: #22262e !important ;
+   }
+              table{
+                width: 100% !important;
+                overflow: scroll;
+                overflow-x: scroll;
+                display: block;
+                white-space: nowrap;
+        }
+}
+/*Ponsel Nexus 5X Portait*/
+/*Ponsel Nexus 5X Landscpae*/
+@media screen and (max-width: 732px) and (max-height: 412px) and (orientation: landscape) {
+   .row {
+       margin: 0px !important ;                
+   } 
+   .login-form {
+       top : 10% ;
+       float: none ;
+       padding: 5px 5px 5px 5px ;
+       position: absolute ;
+       width: 50% ;
+       right: 25%;
+   }
+      .page-content {
+       padding: 8px;
+   }
+      .simaba-logo {
+          /*-6*/
+    margin-left : 0px;
+    margin-top: 19px;
+}
+   .header .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+       background-color: #22262e !important ;
+   }
+              table{
+                width: 100% !important;
+                overflow: scroll;
+                overflow-x: scroll;
+                display: block;
+                white-space: nowrap;
+        }
+}
+/*Ponsel Nexus 5X Landscpae*/
+/*Ponsel iphone 6 plus Portait*/
+@media screen and (max-width: 414px) and (max-height: 736px) and (orientation: portrait) {
+   .row {
+       margin: 0px !important ;                
+   } 
+   .login-form {
+       top : 25% ;
+       float: none ;
+       padding: 5px 5px 5px 5px ;
+       position: absolute ;
+       width: 92% ;
+   } 
+   .simaba-logo {
+    margin-left : 0px;
+    margin-top: 19px;
+}
+   .page-content {
+       padding: 8px;
+   }
+      .header .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+       background-color: #22262e !important ;
+   }
+              table{
+                width: 100% !important;
+                overflow: scroll;
+                overflow-x: scroll;
+                display: block;
+                white-space: nowrap;
+        }
+}
+/*Ponsel iphone 6 plusPortait*/
+/*Ponsel iphone 6 plusLandscpae*/
+@media screen and (max-width: 736px) and (max-height: 414px) and (orientation: landscape) {
+   .row {
+       margin: 0px !important ;                
+   } 
+   .login-form {
+       top : 20% ;
+       float: none ;
+       padding: 5px 5px 5px 5px ;
+       position: absolute ;
+       width: 50% ;
+       right: 25%;
+   }
+      .page-content {
+       padding: 8px;
+   }
+      .simaba-logo {
+    margin-left : -6px;
+    margin-top: 19px;
+}
+   .header .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+       background-color: #22262e !important ;
+   }
+              table{
+                width: 100% !important;
+                overflow: scroll;
+                overflow-x: scroll;
+                display: block;
+                white-space: nowrap;
+        }
+}
+/*Ponsel iphone 6 plusLandscpae*/
+/*Ponsel ipad portrait*/
+@media screen and (max-width: 768px) and (max-height: 1024px) and (orientation: portrait) {
+   .row {
+       margin: 0px !important ;                
+   } 
+   .login-form {
+       top : 25% ;
+       float: none ;
+       padding: 5px 5px 5px 5px ;
+       position: absolute ;
+       width: 92% ;
+   } 
+   .simaba-logo {
+    margin-left : 0px;
+    margin-top: 19px;
+   }
+   .hidden-content {
+       display: none ;
+       visibility: hidden ;
+   }
+   .show {
+       display: inline !important;
+       visibility: visible !important ;
+       margin-right: 10px ;
+   }
+   .top-margin{
+       margin-top: 36px !important;
+   }
+      .page-content {
+       padding: 8px;
+   }
+      .header .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+       background-color: #22262e !important ;
+   }
+              table{
+                width: 100% !important;
+                overflow: scroll;
+                overflow-x: scroll;
+                display: block;
+                white-space: nowrap;
+        }
+}
+/*Ponsel ipad portrait*/
+
+/*Ponsel ipad pro portrait perbaikan*/
+/*@media screen and (max-width: 1024px) and (max-height: 1366px) and (orientation: portrait) {
+   .row {
+       margin: 0px !important ;                
+   } 
+   .login-form {
+       top : 25% ;
+       float: none ;
+       padding: 5px 5px 5px 5px ;
+       position: absolute ;
+       width: 92% ;
+   } 
+   .simaba-logo {
+    margin-left : 70px;
+    margin-top: 19px;
+   }
+   .hidden-content {
+       display: none ;
+       visibility: hidden ;
+   }
+   .show {
+       display: inline !important;
+       visibility: visible !important ;
+       margin-right: 10px ;
+   }
+   .top-margin{
+       margin-top: 36px !important;
+   }
+      .page-content {
+       padding: 8px;
+   }
+   #main-menu-toggle {
+       visibility: visible !important ;
+       display: inline-block !important ;
+   }
+   #main-menu-toggle-wrapper{
+       visibility: visible !important ;
+       display: inline-block !important ;  
+   }
+}*/
+/*Ponsel ipad portrait*/
