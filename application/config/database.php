@@ -136,4 +136,3 @@ $db['simari'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
-// use Illuminate\Database\Capsule\Manager as Capsule;
