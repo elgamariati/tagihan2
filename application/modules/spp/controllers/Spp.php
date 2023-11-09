@@ -58,7 +58,7 @@ class Spp extends MY_Controller
 	public function index()
 	{
 
-		redirect(base_url('spp/salin_tagihan'));
+		//redirect(base_url('spp/salin_tagihan'));
 
 		exit();
 		$this->load->library('form_validation');
