@@ -81,7 +81,7 @@
             <div class="modal-header">Tambah Periode</div>
             <div class="modal-body">
                 <div class="message_box"></div>
-                <?php echo form_open(current_url(), array('id'=>"form-simpan",'class' => 'form-horizontal col-md-12 col-sm-12 col-xs-12', 'autocomplete' => 'off')));?>
+                <?php echo form_open(current_url(), array('id'=>"form-simpan",'class' => 'form-horizontal col-md-12 col-sm-12 col-xs-12', 'autocomplete' => 'off'));?>
                 <div class="form-group col-lg-12 col-md-12 ">
                     <label class="form-label">Periode Tahun</label>
                     <div class="controls">
