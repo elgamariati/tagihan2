@@ -7,4 +7,5 @@ tagihan.sql
 nbproject/*
 /.idea
 application/logs/error/*
+application/config/config.php
 .gitignore
