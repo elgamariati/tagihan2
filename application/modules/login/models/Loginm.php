@@ -52,7 +52,7 @@ class LoginM extends MY_Model
         $this->db->join('simari_role', 'simari_role.username=simari_user.username');
         $this->db->where('simari_user.username', $username);
         $this->db->where('simari_role.aplikasi', 'sibaya');
-        $this->db->where("simari_role.role IN ('superadmin','keuangan_pasca','keuangan_rektorat','ptik')");
+        $this->db->where("simari_role.role IN ('superadmin','keuangan_pasca','keuangan_rektorat','ptik','keuangan')");
         $query = $this->db->get();
 
         return $query;
