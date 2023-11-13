@@ -25,6 +25,6 @@ class Cicilan extends MY_Controller
         $aksi_modul = 'baca';
 		if (!$this->acl->cek_akses_module($this->role, $this->modul, $aksi_modul))
 			show_error($this->acl->body_text, 401, $this->acl->header_text);
-		$this->layout->render('cicil_v');
+		$this->layout->render('index');
 	}
 }
