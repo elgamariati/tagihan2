@@ -8,7 +8,7 @@ $listRole = ['UKT', 'IPI']; ?>
 </style>
 <div class="col-lg-12">
     <div id="group-kode" class="form-group">
-        <label class="form-label col-sm-8">Username</label>
+        <label class="form-label col-sm-8">Nama</label>
         <div class="col-sm-12">
             <?php echo form_input('username', '', array("id" => "username", 'class' => 'form-control')); ?>
         </div>
@@ -16,7 +16,7 @@ $listRole = ['UKT', 'IPI']; ?>
 </div>
 <div class="col-lg-12">
     <div id="group-password" class="form-group">
-        <label class="form-label col-sm-8">Password</label>
+        <label class="form-label col-sm-8">Tambah</label>
         <div class="col-sm-12">
             <?php echo form_password('password', '', array("id" => "password", 'class' => 'form-control')); ?>
         </div>
