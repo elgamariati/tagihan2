@@ -7,7 +7,7 @@
              <h3><span class="semi-bold">Aturan Cicilan</span><span style="font-size : 11pt ;"> Daftar Aturan Cicilan</span></h3>
          </div>
          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
-             <a href="#" data-toggle="modal" data-backdrop="static" data-target="#modal-form" class="btn btn-primary btn-cons" style="float : right ; margin-right : -14px"><i class="fa fa-plus ico-space"></i></i><span>Tambah Data</span></a>
+             <a href="/tambah" data-toggle="modal" class="btn btn-primary btn-cons" style="float : right ; margin-right : -14px"><i class="fa fa-plus ico-space"></i></i><span>Tambah Data</span></a>
          </div>
 
          <!--       <div class="col-lg-4 col-md-4">
