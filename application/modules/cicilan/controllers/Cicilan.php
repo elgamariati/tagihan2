@@ -15,7 +15,6 @@ class Cicilan extends MY_Controller
 		$this->load->helper('form');
 		$this->load->helper('datetime_helper');
 		$this->load->helper('rupiah_helper');
-		$this->load->model('Laporan_m', 'database');
 		$this->load->model('periode/Periode_m', 'periode');
 		$this->load->model('simari/Simari_m', 'simari');
 		$this->load->model('atur_jenjang/Atur_jenjang_m', 'atur_jenjang');
