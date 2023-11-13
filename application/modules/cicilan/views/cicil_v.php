@@ -91,7 +91,7 @@
              </div>
              <div class="modal-body">
                  <div class="alert alert-danger" id="pesan-error"></div>
-                 <?php $this->view('_form', array('listRole' => $listRole)); ?>
+
              </div>
              <div class="modal-footer">
                  <button id="btn-simpan" class="btn btn-primary modalbtn" onclick="simpan();">
@@ -121,5 +121,3 @@
          </div>
      </div>
  </div>
-
-
