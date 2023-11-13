@@ -4,7 +4,7 @@
      <div class="content">
          <div class="page-title col-lg-8 col-md-8 col-sm-8 col-xs-8">
              <i class="fa fa fa-server"></i>
-             <h3><span class="semi-bold">Useraaaaaaaaaaaaaaaaaa</span><span style="font-size : 11pt ;"> Manajemen user dan password aplikasi.</span></h3>
+             <h3><span class="semi-bold">Aturan Cicilan</span><span style="font-size : 11pt ;"> Daftar Aturan Cicilan</span></h3>
          </div>
          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
              <a href="#" data-toggle="modal" data-backdrop="static" data-target="#modal-form" class="btn btn-primary btn-cons" style="float : right ; margin-right : -14px"><i class="fa fa-plus ico-space"></i></i><span>Tambah Data</span></a>
@@ -17,7 +17,7 @@
              <div class="span12">
                  <div class="grid simple ">
                      <div class="grid-title">
-                         <h4>Tabel <span class="semi-boldd">User</span></h4>
+                         <h4>Tabel <span class="semi-boldd">Aturan Cicilan</span></h4>
                          <div class="tools">
                              <a href="javascript:;" class="collapse"></a>
                          </div>
@@ -39,9 +39,7 @@
                              <thead>
                                  <tr>
                                      <th>No</th>
-                                     <th>Username</th>
                                      <th>Nama</th>
-                                     <th>Role</th>
                                      <th width="auto%">Opsi</th>
                                  </tr>
                              </thead>
